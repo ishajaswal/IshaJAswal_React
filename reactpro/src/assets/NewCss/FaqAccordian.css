@@ -1,0 +1,36 @@
+/* FaqAccordion.css */
+
+.faq-container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.faq-header {
+    padding: 10px;
+    cursor: pointer;
+    background: #f1f1f1;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    padding: 0;
+    background: #fafafa;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+}
+
+.faq-answer.open {
+    max-height: 200px;
+    padding: 10px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

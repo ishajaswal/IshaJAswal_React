@@ -1,0 +1,10 @@
+/* src/components/Greeting.css */
+
+.greeting-box {
+    background-color: #f0f8ff;
+    border: 2px solid #add8e6;
+    padding: 16px;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}

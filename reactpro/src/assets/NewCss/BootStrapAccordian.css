@@ -1,0 +1,27 @@
+/* BootstrapAccordion.css */
+
+.accordion-button {
+    font-size: 1.2rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.accordion-body {
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}

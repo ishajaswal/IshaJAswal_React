@@ -1,0 +1,20 @@
+.theme-toggle-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+.theme-toggle-btn:hover {
+    background-color: #45a049;
+}
+
+.theme-toggle-btn:focus {
+    outline: none;
+    transform: scale(1.05);
+    /* Slightly enlarge the button when focused */
+}

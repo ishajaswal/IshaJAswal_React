@@ -1,0 +1,22 @@
+/* TaskBoard.css */
+
+.task-column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    min-height: 200px;
+    background-color: #f9f9f9;
+}
+
+.task-column h3 {
+    text-transform: uppercase;
+}
+
+.task-item {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    cursor: grab;
+}
