@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "../assets/NewCss/PaginationComponent.css"
 
 function PaginationDemo() {
-  const dummyData = Array.from({ length: 50 }, (_, i) => `Item ${i + 1}`); // Dummy list
+  const dummyData = Array.from({ length: 50 }, (_, i) => `Item ${i + 1}`); 
   const itemsPerPage = 5;
 
   const [currentPage, setCurrentPage] = useState(1);
