@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import "../assets/NewCss/ToDoApp.css"
 
-
-
 function TaskBoard() {
   const [tasks, setTasks] = useState({
     todo: ['Task 1', 'Task 2'],
