@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './FaqAccordion.css'; // Import the CSS file
+import './FaqAccordion.css'; 
 
 const questions = [
   {
@@ -8,7 +8,7 @@ const questions = [
   },
   {
     question: 'What is a component?',
-    answer: 'A component is a self-contained building block of a React application.'
+    answer: 'A component is a self contained building block of a React application.'
   },
   {
     question: 'What is JSX?',
@@ -20,7 +20,7 @@ function FaqAccordion() {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleQuestion = (index) => {
-    setOpenIndex(openIndex === index ? null : index); // Toggle open/close
+    setOpenIndex(openIndex === index ? null : index); 
   };
 
   return (
