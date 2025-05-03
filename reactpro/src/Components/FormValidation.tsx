@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../FormValidationApp.css';  // Import the CSS file
+import '../FormValidationApp.css';  
 
 function FormValidationApp() {
   const [form, setForm] = useState({ name: '', email: '', password: '' });
