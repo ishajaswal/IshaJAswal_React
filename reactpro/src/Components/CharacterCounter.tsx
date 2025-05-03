@@ -1,22 +1,13 @@
-// src/components/CharacterCounter.js
-
-
-
-
-
-
 
 import React,{useState} from "react";
 
-
-
 const CharacterCounter = () => {
-  // State to store the input value
+
   const [text, setText] = useState('');
   
-  // Handler for input change
+  
   const handleInputChange = (event) => {
-    setText(event.target.value);  // Update text state on input change
+    setText(event.target.value); 
   };
 
   return (
