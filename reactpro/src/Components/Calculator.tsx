@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// Import the CSS file
+
 import "../assets/NewCss/Calculator.css";
 
 const App: React.FC = () => {
